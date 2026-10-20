@@ -1,5 +1,7 @@
 # Rebuilds the dataset from its public sources weekly (and by hand), commits what changed and, when the
-# HF_TOKEN secret is set, mirrors the repository to Hugging Face (dhammagift/dg-dataset).
+# HF_TOKEN secret is set, mirrors the repository to Hugging Face (dhammagift/dg-dataset). On the first run of a month,
+# if the data changed since the last release, it also makes a release (vYYYY.MM), which Zenodo archives with a new
+# DOI version: weekly data, monthly DOIs (owner 2026-10-20: no releases by hand, none when nothing changed).
 name: build
 on:
   schedule:
@@ -16,6 +18,8 @@ jobs:
       HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - name: Sources
         run: |
           git clone -q --depth 1 --filter=blob:none --sparse https://github.com/dhammagift/offline-data.git ../od
@@ -42,3 +46,13 @@ jobs:
           api.upload_folder(repo_id='dhammagift/dg-dataset', repo_type='dataset', folder_path='.',
                             allow_patterns=['README.md', 'LICENSE', 'build.py', 'data/*', 'texts/**'])
           "
+      - name: Monthly release
+        if: github.event_name == 'schedule'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          [ "$(date -u +%d)" -le 7 ] || { echo "not the month's first run"; exit 0; }
+          last=$(git describe --tags --abbrev=0 2>/dev/null || true)
+          if [ -n "$last" ] && git diff --quiet "$last" HEAD -- data texts; then echo "no changes since $last"; exit 0; fi
+          tag=v$(date -u +%Y.%m)
+          gh release create "$tag" --target "$(git rev-parse HEAD)" --title "$tag" --notes "Dhamma.Gift dataset $tag: data rebuilt from the sources since ${last:-the start}. https://dhamma.gift"
