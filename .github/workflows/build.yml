@@ -1,0 +1,43 @@
+# Rebuilds the dataset from its public sources weekly (and by hand), commits what changed and, when the
+# HF_TOKEN secret is set, mirrors the repository to Hugging Face (dhammagift/dg-dataset).
+name: build
+on:
+  schedule:
+    - cron: '17 3 * * 1'
+  workflow_dispatch:
+concurrency: build
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Sources
+        run: |
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/dhammagift/offline-data.git ../od
+          git -C ../od sparse-checkout set dhammagift/translation/ru
+          git clone -q --depth 1 --filter=blob:none --sparse https://github.com/suttacentral/sc-data.git ../scd
+          git -C ../scd sparse-checkout set sc_bilara_data/root/pli/ms
+          git clone -q --depth 1 https://github.com/dhammagift/dg-docs.git ../docs
+      - name: Build
+        run: python3 build.py --offline-data ../od --pali-root ../scd/sc_bilara_data/root/pli/ms --docs ../docs
+      - name: Commit
+        run: |
+          git add -A data texts
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git -c user.name=dg-dataset-bot -c user.email=agiftofdhamma@gmail.com commit -qm "Data rebuilt from the sources"
+          git push
+      - name: Hugging Face
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+        if: env.HF_TOKEN != ''
+        run: |
+          pip install -q huggingface_hub
+          python3 -c "
+          from huggingface_hub import HfApi
+          api = HfApi()  # reads HF_TOKEN from the environment
+          api.create_repo('dhammagift/dg-dataset', repo_type='dataset', exist_ok=True)
+          api.upload_folder(repo_id='dhammagift/dg-dataset', repo_type='dataset', folder_path='.',
+                            allow_patterns=['README.md', 'LICENSE', 'build.py', 'data/*', 'texts/**'])
+          "

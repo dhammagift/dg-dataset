@@ -1,0 +1,8 @@
+The Dhamma.Gift project's own content in this repository - the Russian translation ("o") in data/parallel_pli_ru.jsonl,
+the glossary renderings in data/glossary.jsonl and the texts in texts/ - is licensed under the
+Creative Commons Attribution 4.0 International License (CC BY 4.0): https://creativecommons.org/licenses/by/4.0/
+
+Attribution: Dhamma.Gift, https://dhamma.gift
+
+The Pali root text is from SuttaCentral (https://suttacentral.net, github.com/suttacentral/sc-data), released under CC0.
+build.py is released under CC0 as well.
