@@ -180,7 +180,23 @@ Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistak
 
 **In sum:** rendering *taṇhā* as "clinging" and *upādāna* as "holding, sustaining, feeding a process" fits the ordinary meaning of these words better and does not break the logic of the Pali: the causal chain stays intact, and the similes of the suttas (fire and fuel, moisture, drying up) keep their sense.
 
-## Where the Standard Renderings Don't Fit the Suttas
+## Issues with Sanskritocentrism
+
+Sanskritocentrism (pan-Sanskritism)[^3] is considered a non-optimal approach to understanding the Buddha's Teaching. The Buddha's Teaching exists in exhaustive completeness in Pali, whereas Sanskrit materials are often later, more fragmentary, and frequently known not from an independent Sanskrit original but through their Chinese and Tibetan translations. Moreover, comparing the Pali and Sanskrit versions reveals not just lexical differences but fundamental shifts in the concepts themselves. A telling example is the blending of *dukkha* and *domanassa*, and the tendency to understand *dukkha* as a mixture of bodily and mental pain — whereas in the Pali texts, as shown repeatedly above, these concepts are distinguished, never mixed, and never reduced to one another.
+
+And if one looks at Sanskrit spiritual literature as a whole, beyond the Buddhist part alone, assuming that the conceptual base of the Dhamma and of the Vedas is identical or close is quite rash.
+
+Even within a single teaching or religion, divergences in the meaning of concepts are great enough to produce separate — sometimes hostile — movements, schools, and sects. All the more caution is due toward the assumption that two languages carrying the heritage of dozens of teachings, schools, and hundreds of doctrinal lines will coincide not only in general sense but down to the subtlest shades of meaning.
+
+The apparent absence of false cognates and "false friends of the translator" between the two languages is itself a good illustration of the unconvincingness of the pro-Sanskrit approach to Pali — as if someone had made the illogical equation: "if two languages have similar grammar and many related words, then the key concepts of their teachings must also be identical."
+
+*Atta* and *Atman* are a vivid example of clearly existing divergence and non-interchangeability of meaning: *Atta* (essence, selfhood, ~autonomy, the everyday "I") in Pali, and *Atman* (the higher "Self") in Sanskrit.
+
+It is also enough to compare the 31 "body parts," as in [dn22](https://dhamma.gift/dn22:5.2?lang=en) — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
+
+With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed below. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
+
+**Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a mechanical transfer of meanings and parallels between the two languages), this would be unlikely.
 
 **Examples from Pali texts:**
 
@@ -222,26 +238,6 @@ Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistak
    - [an4.238](https://dhamma.gift/an4.238:4.1?s=kamma&lang=en) — the mindfulness-awakening-aspect, rapture-awakening-aspect, tranquility-awakening-aspect, samādhi-awakening-aspect, and direct-seeing-awakening-aspect likewise do not fit the concept of action.
 
 The texts above show that the Pali terms `dukkha`, `taṇhā`/`tasinā`, `kāma`, and `kamma` were never exact equivalents — either of their Sanskrit counterparts or of the standard English translations. Yet "suffering," "thirst," "sensual desire," and "action" remain the standard, universally used Buddhist terminology.
-
-## Issues with Sanskritocentrism
-
-Sanskritocentrism (pan-Sanskritism)[^3] is considered a non-optimal approach to understanding the Buddha's Teaching. The Buddha's Teaching exists in exhaustive completeness in Pali, whereas Sanskrit materials are often later, more fragmentary, and frequently known not from an independent Sanskrit original but through their Chinese and Tibetan translations. Moreover, comparing the Pali and Sanskrit versions reveals not just lexical differences but fundamental shifts in the concepts themselves. A telling example is the blending of *dukkha* and *domanassa*, and the tendency to understand *dukkha* as a mixture of bodily and mental pain — whereas in the Pali texts, as shown repeatedly above, these concepts are distinguished, never mixed, and never reduced to one another.
-
-And if one looks at Sanskrit spiritual literature as a whole, beyond the Buddhist part alone, assuming that the conceptual base of the Dhamma and of the Vedas is identical or close is quite rash.
-
-Even within a single teaching or religion, divergences in the meaning of concepts are great enough to produce separate — sometimes hostile — movements, schools, and sects. All the more caution is due toward the assumption that two languages carrying the heritage of dozens of teachings, schools, and hundreds of doctrinal lines will coincide not only in general sense but down to the subtlest shades of meaning.
-
-The apparent absence of false cognates and "false friends of the translator" between the two languages is itself a good illustration of the unconvincingness of the pro-Sanskrit approach to Pali — as if someone had made the illogical equation: "if two languages have similar grammar and many related words, then the key concepts of their teachings must also be identical."
-
-*Atta* and *Atman* are a vivid example of clearly existing divergence and non-interchangeability of meaning: *Atta* (essence, selfhood, ~autonomy, the everyday "I") in Pali, and *Atman* (the higher "Self") in Sanskrit.
-
-It is also enough to compare the 31 "body parts," as in [dn22](https://dhamma.gift/dn22:5.2?lang=en) — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
-
-With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed above. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
-
-**Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a mechanical transfer of meanings and parallels between the two languages), this would be unlikely.
-
-The Pali passages for these terms are examined above, in [Where the Standard Renderings Don't Fit the Suttas](https://dhamma.gift/docs/rationale/#passages).
 
 [^1]: In English, **pain**: [meaning 1] in the direct sense — a wide spectrum of unpleasant bodily sensations; [meaning 2] in the figurative sense — a problem, limitation, or inconvenience, something requiring a solution or improvement, as in "the pain of loneliness" or "customer pain." **Suffering**: [meaning 1] in the direct sense — very strong bodily and mental pain, together or separately; [meaning 2] in the figurative sense — mental pain, mental discomfort.
 [^2]: False cognates — words similar in sound and origin but with different meanings. Examples: *fabric* — "cloth" vs. Russian *фабрика* — "factory"; *magazine* — "periodical" vs. Russian *магазин* — "store."
