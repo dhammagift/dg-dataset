@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Тесты для ИИ</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@500;700&family=Noto+Sans:wght@400;600&family=Noto+Sans+Mono&display=swap">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;font:14px/1.5 system-ui,sans-serif}
+img{max-width:100%}
+[hidden]{display:none!important}
+/* Layout: one reading column; each test is a section with its steps, then a results table that scrolls sideways on its own */
+:root {
+  --bg: #f6f7f5; --surface: #ffffff; --fg: #1d2421; --muted: #5b6862; --line: #d9dfdb;
+  --accent: #1f5e5b; --accent-soft: #e3efed; --code: #eef2f0;
+  --display: "Noto Serif", Georgia, "Times New Roman", serif;
+  --body: "Noto Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --mono: "Noto Sans Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --surface: #1b211f; --fg: #e3e9e6; --muted: #9aa8a1; --line: #2e3734;
+  --accent: #7cc4bd; --accent-soft: #20302d; --code: #212825; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --surface: #1b211f; --fg: #e3e9e6; --muted: #9aa8a1; --line: #2e3734;
+  --accent: #7cc4bd; --accent-soft: #20302d; --code: #212825; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font: 15px/1.55 var(--body); }
+.wrap { max-width: 1180px; margin: 0 auto; padding-block: 28px 56px;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1 { font: 700 1.9rem/1.2 var(--display); margin: 0 0 6px; text-wrap: balance; }
+h2 { font: 700 1.35rem/1.25 var(--display); margin: 0; text-wrap: balance; }
+h3 { font: 600 1rem/1.3 var(--body); margin: 0; }
+.lead { color: var(--muted); max-width: 70ch; margin: 0; }
+.test { display: grid; gap: 20px; margin-top: 28px; padding-top: 24px; border-top: 1px solid var(--line); }
+.meta { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; }
+.date { font: 13px var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
+.steps { display: grid; gap: 14px; }
+.step { background: var(--surface); border: 1px solid var(--line); border-radius: 8px; padding: 14px 16px; display: grid; gap: 8px; min-width: 0; }
+.step-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.note { color: var(--muted); font-size: 13.5px; margin: 0; }
+pre { margin: 0; background: var(--code); border-radius: 6px; padding: 10px 12px; font: 12.5px/1.5 var(--mono);
+  white-space: pre-wrap; word-break: break-word; max-height: 220px; overflow: auto; }
+button.copy { font: 600 13px var(--body); color: var(--accent); background: var(--accent-soft); border: 1px solid transparent;
+  border-radius: 6px; padding: 6px 12px; cursor: pointer; }
+button.copy:hover { border-color: var(--accent); }
+button.copy:focus-visible, summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.table-scroll { overflow-x: auto; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
+table { border-collapse: collapse; width: 100%; min-width: 860px; font-size: 13.5px; }
+th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+th { font: 600 12px var(--body); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); background: var(--code); position: sticky; top: 0; }
+tr:last-child td { border-bottom: 0; }
+td.model { width: 190px; }
+.model-name { display: flex; gap: 8px; align-items: flex-start; font-weight: 600; }
+.model-name svg, .badge { flex: none; width: 16px; height: 16px; margin-top: 2px; }
+.badge { display: inline-grid; place-items: center; border-radius: 4px; background: var(--fg); color: var(--bg); font: 700 10px var(--body); }
+.channel { display: block; color: var(--muted); font-size: 12.5px; font-weight: 400; margin-top: 2px; padding-left: 24px; }
+details { margin-top: 6px; }
+summary { cursor: pointer; color: var(--accent); font-size: 12.5px; font-weight: 600; }
+details pre { margin-top: 6px; max-height: 360px; }
+.footnote { margin: 0; color: var(--muted); font-size: 13.5px; max-width: 90ch; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+  <h1>Тесты для ИИ</h1>
+  <p class="lead">Что модели знают о терминах сутт сами и как меняются их ответы, когда они прочитали справочник Dhamma.Gift. У каждой строки — короткий итог и полный ответ модели.</p>
+  <div id="tests"></div>
+</div>
+
+<script>
+// New test or row: add it to TESTS (the build fills it from data.json; edit build.py, not this array by hand)
+const TESTS = /*__TESTS__*/[];
+const ICONS = /*__ICONS__*/{};
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function logo(brand, model) {
+  if (brand === 'microsoft') return '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M1 1h10v10H1zM13 1h10v10H13zM1 13h10v10H1zM13 13h10v10H13z"/></svg>';
+  if (ICONS[brand]) return `<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="${ICONS[brand]}"/></svg>`;
+  return `<span class="badge" aria-hidden="true">${esc((model || '?')[0])}</span>`;
+}
+
+function cell(summary, full) {
+  return `<td>${esc(summary || '—')}${full ? `<details><summary>Полный ответ</summary><pre>${esc(full)}</pre></details>` : ''}</td>`;
+}
+
+async function copy(text, btn) {
+  const label = btn.textContent;
+  try { await navigator.clipboard.writeText(text); btn.textContent = 'Скопировано'; }
+  catch (e) {
+    const ta = document.createElement('textarea'); ta.value = text; document.body.append(ta); ta.select();
+    btn.textContent = 'Выделено — нажмите Ctrl+C'; setTimeout(() => ta.remove(), 4000);
+  }
+  setTimeout(() => { btn.textContent = label; }, 2000);
+}
+
+document.getElementById('tests').innerHTML = TESTS.map((t, ti) => `
+  <section class="test" id="${esc(t.id)}">
+    <div class="meta"><h2>${esc(t.title)}</h2><span class="date">${esc(t.date)}</span></div>
+    <p class="lead">${esc(t.intro)}</p>
+    <div class="steps">${t.steps.map((s, si) => `
+      <div class="step">
+        <div class="step-head"><h3>${esc(s.title)}</h3><button class="copy" data-t="${ti}" data-s="${si}">Копировать</button></div>
+        <p class="note">${esc(s.note)}</p>
+        <pre>${esc(s.preview || s.prompt)}</pre>
+      </div>`).join('')}
+    </div>
+    <div class="table-scroll"><table>
+      <thead><tr><th>Модель</th><th>Дата</th><th>Без материала</th><th>С llms-full.txt</th><th>2b</th></tr></thead>
+      <tbody>${t.rows.map(r => `<tr>
+        <td class="model"><span class="model-name">${logo(r.brand, r.model)}<span>${esc(r.model)}</span></span><span class="channel">${esc(r.channel)}</span></td>
+        <td class="date">${esc(r.date)}</td>
+        ${cell(r.cold_summary, r.cold_full)}${cell(r.warm_summary, r.warm_full)}${cell(r.push_summary, r.push_full)}
+      </tr>`).join('')}</tbody>
+    </table></div>
+    <p class="footnote">${esc(t.footnote)}</p>
+  </section>`).join('');
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('button.copy'); if (!b) return;
+  copy(TESTS[b.dataset.t].steps[b.dataset.s].prompt, b);
+});
+</script>
+
+</body>
+</html>
