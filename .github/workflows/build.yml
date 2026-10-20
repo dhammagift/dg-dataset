@@ -11,6 +11,9 @@ permissions:
 jobs:
   build:
     runs-on: ubuntu-latest
+    # job level: a step's own env is not visible to that step's `if`
+    env:
+      HF_TOKEN: ${{ secrets.HF_TOKEN }}
     steps:
       - uses: actions/checkout@v4
       - name: Sources
@@ -29,8 +32,6 @@ jobs:
           git -c user.name=dg-dataset-bot -c user.email=agiftofdhamma@gmail.com commit -qm "Data rebuilt from the sources"
           git push
       - name: Hugging Face
-        env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
         if: env.HF_TOKEN != ''
         run: |
           pip install -q huggingface_hub
