@@ -27,6 +27,8 @@ configs:
 
 # Dhamma.Gift: the Suttas read by the Suttas' own definitions
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23491473.svg)](https://doi.org/10.5281/zenodo.23491473)
+
 The Suttas define their own key terms. The question *"Katamañca, bhikkhave, X?"* ("And what, monks, is X?") is answered, and the answer closes with *"idaṁ vuccati X"* ("this is called X"). The texts can also be checked against one another. The Buddha's criterion for any teaching is to check it against the Suttas and the Vinaya, not the authority of whoever reports it ([AN 4.180](https://dhamma.gift/an4.180:2.6?lang=en)).
 
 This dataset is the [Dhamma.Gift](https://dhamma.gift) project's reading of the Pali Canon (Sutta and Vinaya) on that basis. It holds three things, and every record links to the Pali segment it rests on:
@@ -71,6 +73,10 @@ The glossary is filled in gradually. Terms without a definition yet have empty l
 - **Covered:** the four Nikāyas, the Udāna, Itivuttaka and Sutta Nipāta, and the Vinaya's Vibhaṅgas.
 - **Translation:** the Russian translation covers a part of the canon, 844 texts so far, and grows.
 - **Not included:** the Abhidhamma, and translations by other authors.
+
+## Cite
+
+Dhamma.Gift. *Dhamma.Gift: the Suttas read by the Suttas' own definitions* (dataset). Zenodo. https://doi.org/10.5281/zenodo.23491473 (all versions).
 
 ## Sources and license
 
