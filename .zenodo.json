@@ -1,0 +1,13 @@
+{
+  "title": "Dhamma.Gift: the Suttas read by the Suttas' own definitions",
+  "upload_type": "dataset",
+  "description": "The Dhamma.Gift project's own Russian translation of the Pali Canon, segment by segment with the Pali root text; a glossary of Pali terms with the places where the Suttas define them; and the texts Principles by Suttas and Rationale (English and Russian). Every record links to the Pali segment it rests on. https://dhamma.gift",
+  "creators": [{"name": "Dhamma.Gift"}],
+  "license": "cc-by-4.0",
+  "keywords": ["pali", "pali canon", "sutta", "vinaya", "buddhism", "theravada", "parallel corpus", "glossary", "russian"],
+  "language": "rus",
+  "related_identifiers": [
+    {"identifier": "https://dhamma.gift", "relation": "isSupplementTo", "resource_type": "other"},
+    {"identifier": "https://huggingface.co/datasets/dhammagift/dg-dataset", "relation": "isIdenticalTo", "resource_type": "dataset"}
+  ]
+}

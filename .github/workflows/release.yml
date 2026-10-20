@@ -1,0 +1,14 @@
+# A pushed tag v* becomes a GitHub release; Zenodo, linked to this repository, archives each release and gives it a DOI
+name: release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh release create "$GITHUB_REF_NAME" --repo "$GITHUB_REPOSITORY" --title "$GITHUB_REF_NAME" --notes "Dhamma.Gift dataset $GITHUB_REF_NAME - https://dhamma.gift"
