@@ -116,7 +116,7 @@ voice breaks his samādhi, and the next generation follows the example.
 
 ## The four truths in depth — Hatthipada
 
-As in [MN 28](https://dhamma.gift/mn28?lang=en): the footprints of all animals fit into the elephant's, and everything skilful fits into the four noble truths. [Hatthipada](https://dhamma.gift/hatthipada/?lang=en) shows how the suttas themselves define every word of the truths: click a word and its definitions open ("Katamā ca, bhikkhave, X?" … "idaṁ vuccati X"), their words click again, as deep as you go. Only the Pāḷi of the four nikāyas and the suttas' own formulas; the translation is a reference.
+As in [MN 28](https://dhamma.gift/mn28:2.1?lang=en): the footprints of all animals fit into the elephant's, and everything skilful fits into the four noble truths. [Hatthipada](https://dhamma.gift/hatthipada/?lang=en) shows how the suttas themselves define every word of the truths: click a word and its definitions open ("Katamā ca, bhikkhave, X?" … "idaṁ vuccati X"), their words click again, as deep as you go. Only the Pāḷi of the four nikāyas and the suttas' own formulas; the translation is a reference.
 
 [Open Hatthipada →](https://dhamma.gift/hatthipada/?lang=en)
 
@@ -148,5 +148,6 @@ relevant line:
 - [Principles of Translation](https://dhamma.gift/docs/principles) — how these criteria shape word-level translation choices.
 - [Rationale](https://dhamma.gift/docs/rationale) — the detailed reasoning and examples behind those principles.
 - [Hatthipada](https://dhamma.gift/hatthipada/?lang=en) — the four truths and every word of them by the suttas' own definitions.
+- [Dataset](https://huggingface.co/datasets/dhammagift/dg-dataset) — this reading as open data (CC BY 4.0): the project's Russian translation with the Pali, and where the suttas define each term; also on [GitHub](https://github.com/dhammagift/dg-dataset) and [Zenodo](https://doi.org/10.5281/zenodo.23491473) (DOI 10.5281/zenodo.23491473).
 
 [^1]: An example: in [sn22.59](https://dhamma.gift/sn22.59:6.4?lang=en) the Buddha asks: *Yaṁ panāniccaṁ dukkhaṁ vā taṁ sukhaṁ vā?* — "And what is anicca, is it painful or pleasant?" The monks answer categorically: *Dukkhaṁ, bhante* — "Painful, venerable sir," and the Buddha accepts that answer. So this is a question to be answered categorically (*ekaṁsabyākaraṇīya*). If anicca meant "impermanent," no categorical answer would be possible: what is impermanent is not always painful. An impermanent pain is unpleasant while it lasts and pleasant when it goes; something pleasant, on the contrary, is painful when it goes. Such a question would have to be answered with analysis (*vibhajjabyākaraṇa*): "it depends on what exactly is impermanent." The categorical answer the Buddha accepts shows that anicca is what is always painful: unreliable, unstable, what cannot be relied upon. This is a serious argument: in [an3.67](https://dhamma.gift/an3.67:2.2?lang=en) the Buddha states plainly that one who answers categorically a question that calls for analysis (or the reverse) is not fit to talk with. By accepting a categorical answer to a question that calls for analysis, the Buddha would contradict his own words.

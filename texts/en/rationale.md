@@ -24,7 +24,7 @@ Narrowly contextual translation is a perfectly appropriate path of least resista
 
 ### The Effect of Narrowly Contextual Translation
 
-**A case in point:** in an imaginary text, word X is translated as "flying fox"; in another, word X is translated as "polo mallet." Narrowly contextual translation led to the word "bat" losing both its meanings, or acquiring unnecessary additional connotations.
+**A case in point:** the word "hot" in language Z is a complete synonym of two words from language X: "hot-ish" and "fire/conflagration." It follows that both words in language X are also complete synonyms.
 
 **Example 1, from translations:**
 
@@ -97,7 +97,7 @@ In the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa` — dukkha a
 
 In the satipaṭṭhānas: `kāyo vedanā` are the first two parts, `citta` (mind-state) is the third.
 
-In the six elements (four great elements plus two): the four great elements are all "bodily" ([mn28](https://dhamma.gift/mn28?lang=en)); *viññāṇadhātu* is ~mental, or more precisely the phenomenon that produces mentality.
+In the six elements (four great elements plus two): the four great elements are all "bodily" ([mn28](https://dhamma.gift/mn28:6.3?lang=en)); *viññāṇadhātu* is ~mental, or more precisely the phenomenon that produces mentality.
 
 In the five aggregates of sustaining (*upādāna*): `rūpa vedanā saññā saṅkhārā viññāṇa` — ~matter, feeling of pleasant, pain, and neither-pain-nor-pleasant come first, and only then the ~mental phenomena.
 
@@ -180,6 +180,70 @@ Translating *taṇhā* as "thirst" and *upādāna* as "clinging" builds a mistak
 
 **In sum:** rendering *taṇhā* as "clinging" and *upādāna* as "holding, sustaining, feeding a process" fits the ordinary meaning of these words better and does not break the logic of the Pali: the causal chain stays intact, and the similes of the suttas (fire and fuel, moisture, drying up) keep their sense.
 
+## Where the Standard Renderings Don't Fit the Suttas
+
+**Examples from Pali texts:**
+
+1. `dukkha` — pain and discomfort, not "suffering":
+   - [dn22](https://dhamma.gift/dn22:18.18?s=dukkha&lang=en) — the definition within the practical realization of the Four Noble Truths.
+   - [mn141](https://dhamma.gift/mn141:16.1?s=dukkha&lang=en) — the definition within the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa` — suffering [meaning 1], lamentation, pain, "suffering" [meaning 2], despair. If we speak of *suffering* in the direct sense, it is either *soko* — very strong bodily and mental pain, in which the experiencer:
+     ```
+     Khaṇātītā hi socanti
+     nirayamhi samappitā
+     ```
+     Those who missed the opportunity, they suffer, having fallen into hell —
+     ```
+     socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati
+     ```
+     suffers, languishes, cries, beats their breast weeping, falls into confusion — or *domanassa* in the figurative sense of "suffering," as mental pain.
+2. `taṇhā` — clinging, sticking, fastening, or adhesion; not craving or thirst. The two Pali terms *taṇhā* and *tasinā*[^4] — quite mechanically, without regard for their context of use in the Suttas — have been given full synonymous status with each other and with the Sanskrit *tṛṣṇā*, though given what was described above under "Semantic Divergence," this problem may not be about Sanskrit at all, but about translating both languages without regard for differences in meaning that can be gleaned from their descriptions. Still, to a large extent a "Sanskrit" problem is also present: the kinship of *tṛṣṇā*, *taṇhā*, and *tasinā* is explained by standard phonetic mutation (*tṛṣṇā → taṇhā*, of which there are only about three such words in the entire core of the Pali texts: *kṛṣṇa → kaṇha*, *uṣṇa → uṇha*; and the similarity of *tṛṣṇā* and *tasinā* — *tṛ → t*, *ṣ → s*, *ṇā → nā* — is likewise easy to trace). But phonetic mutation cannot guarantee that meaning is "transferred" too, especially when the "mutation" of one word supposedly gives both words fully identical meanings — much as claiming "dryish" and "drought" are complete synonyms because the word "dry" in some other language corresponds to both. Divergences in the meaning and use of Pali *taṇhā* and *tasinā* are easily traced in the texts below: *taṇhā* is used where the phenomenon is associated with joy and passion-enchantment, delighting here-and-there, while *tasinā* is used in cases of desert, heat, and exhaustion, in more extreme circumstances.
+     - [sn12.68](https://dhamma.gift/sn12.68:13.4?s=tasito&lang=en) — describes circumstances suited to real, strong "thirst," and uses a derivative of *tasinā*, not *taṇhā*; but if this concerned the desire to drink, there would be a pleonasm with *pipāsito* ("thirsty, desiring to drink"). In any case, such a context does not fit "accompanied by joy-passion, delighting here-and-there," which is repeatedly said of *taṇhā*.
+     - [snp3.2](https://dhamma.gift/snp3.2:12.3?s=ta%E1%B9%87h%C4%81&lang=en) — the same case: *taṇhā* is not used, *tasinā* is, with the same tautology alongside *pipāsā*.
+     - [an4.10](https://dhamma.gift/an4.10:1.6?s=ta%E1%B9%87h&lang=en) — *kāmapipāsā* and *kāmataṇhā* stand in one list: if *taṇhā* were thirst, it would be a tautology with *pipāsā*.
+     - [an4.184](https://dhamma.gift/an4.184:3.2?s=ta%E1%B9%87h&lang=en) — if *taṇhā* were thirst, there would be a tautology with *pipāso*, which here clearly has a figurative meaning; when used literally, *pipāso* means "desire to drink."
+     - [an3.76](https://dhamma.gift/an3.76:2.3?s=ta%E1%B9%87h&lang=en) and [an3.77](https://dhamma.gift/an3.77:2.3?s=ta%E1%B9%87h&lang=en) — if *taṇhā* were thirst, this would be a misleading oxymoron: thirst as moisture and nourishment.
+     - [sn44.9](https://dhamma.gift/sn44.9:6.6?s=ta%E1%B9%87h&lang=en) — a logical contradiction: thirst (hunger for liquid) as nourishment.
+     - [an10.62](https://dhamma.gift/an10.62:2.2?s=ta%E1%B9%87h&lang=en) — what would be the nourishment of thirst? Thirst is an absence, not a form of nourishment itself.
+     - [iti109](https://dhamma.gift/iti109:3.3?s=ta%E1%B9%87h&lang=en) — the river's flow is thirst; a state of water's absence is a flow of water.
+     - [sn41.5](https://dhamma.gift/sn41.5:5.10?s=ta%E1%B9%87h&lang=en) — a similar contradiction involving the flow of water.
+     - [mn9](https://dhamma.gift/mn9:11.5?s=ta%E1%B9%87h%C4%81&lang=en) — from the accumulation of thirst comes accumulation of nourishment (logically it should be the reverse — from the disappearance of nourishment, an accumulation of thirst, or at least from the disappearance of thirst, an accumulation of nourishment).
+     - [an4.199](https://dhamma.gift/an4.199:2.2?s=ta%E1%B9%87ha&lang=en) — the phenomena listed here are so subtle that thirst could, if anything, be their result; calling "I am" and its further extensions "thirst" or currents thereof, in the sense of an "acute need for something," is very difficult — this passage concerns subtle, fundamental states inherent even in beings devoid of "thirst" in the ordinary sense of the word. Moreover, the sutta does not mention taṇhā in passing; it answers outright what it is (*Katamā ca sā, bhikkhave, taṇhā…?*). The whole answer is 108 variations of "I am," "I am such," "may I be," "I will be." It contains not a single word used to describe thirst, desire, or urge, although Pali has plenty of them: *icchā*, *chanda*, *patthanā*, *pipāsā*, *ākaṅkhā*. Had thirst been meant, the Buddha would hardly have made it harder for his followers to understand by defining it in 108 ways without once calling it wanting, urge, or longing — that is, what it is usually translated as: "craving," "thirst," "desire," "longing." 
+     - [an4.9](https://dhamma.gift/an4.9:2.1?s=ta%E1%B9%87ha&lang=en) — thirst is not the source of pain, but either one type of pain, or conversely a striving to stop something unpleasant. Otherwise thirst for water would be the cause of the unpleasant sensation of dryness — but on the contrary, thirst as the striving to drink is the *result* of the unpleasant sensation of dryness.
+     - [an6.61](https://dhamma.gift/an6.61:12.4?s=ta%E1%B9%87ha&lang=en) — the phenomena listed here, including *phasso*, can be so subtle that there can be no talk of thirst in either a figurative or a direct sense, especially at moments of "quenched thirst" — yet these phenomena remain stitched together and held, whether or not there is "strong wanting."
+     - [thag8.3](https://dhamma.gift/thag8.3:8.3?lang=en) — `Sabbaṁ taṇhaṁ visosetvā`. Another oxymoron, "drying up thirst," on top of the "thirst is moisture" one above, instead of the logical "thirst is already dryness."
+
+   As has been stated repeatedly, in Pali texts *taṇhā* has a more complex, subtle, and less "loud" meaning than the English word "thirst" — it denotes stickiness, adhesion, and grasping. If any Pali word comes close to "thirst" in both literal and figurative senses, it is *tasinā*.
+3. `kāma` — desire, not only "sensual desire". The rendering "sensual desire" is inappropriate for *kāma* based on its descriptions in the suttas.
+   - [an6.63](https://dhamma.gift/an6.63:8.10?s=k%C4%81m&lang=en) — desires as intention-plan-passion, not merely multipliers of desire (*kāma-guṇas*).
+   - [an6.63 (continuation)](https://dhamma.gift/an6.63:12.1?s=k%C4%81mayam%C4%81no&lang=en) — a desiring person obtains either good or not-good, but "sensual" desires would lead to not-good, as they would contain *akusalamūla*: *lobha*, *dosa*, and/or *moha*.
+      - This is also evident from [MN 13](https://dhamma.gift/mn13:13.1?lang=en): it is not only for sensual pleasures that men go to war, but out of necessity, patriotic duty, or lofty ideals:
+     ```
+     Puna caparaṁ, bhikkhave, kāmahetu kāmanidānaṁ kāmādhikaraṇaṁ kāmānameva hetu asicammaṁ gahetvā, dhanukalāpaṁ sannayhitvā, addāvalepanā upakāriyo pakkhandanti usūsupi khippamānesu, sattīsupi khippamānāsu, asīsupi vijjotalantesu.
+     ```
+     "Further, with desire as the cause... men take up swords and shields, strap on quivers and bows, and charge at slippery bastions while arrows and spears are flying and swords are flashing."
+   - Not to mention the "desire to help": `Puriso attha-kāmo hita-kāmo yogakkhema-kāmoti kho, bhikkhave, tathāgatassetaṁ adhivacanaṁ arahato sammāsambuddhassa.` — "A person desiring good, desiring benefit, desiring protection from the yoke," monks, is a designation of the Tathagata, of the Arahant, of the Rightly Awakened One. ([mn19](https://dhamma.gift/mn19:26.10?s=hitak%C4%81m&lang=en)) It would be inappropriate to assume the Tathagata compared himself to a person passionately desiring good for others, or for himself.
+4. `kamma` — activity and `cetanā` — cognitive processing (activity), not just action and intention:
+   - [an4.237](https://dhamma.gift/an4.237:5.1?s=kamma&lang=en) — Right View, Right Mindfulness, and Right Samādhi do not fit the concept of "action" — perhaps, with a stretch, "activity" — but these are clearly far subtler phenomena than mere deed, work, or action.
+   - [an4.238](https://dhamma.gift/an4.238:4.1?s=kamma&lang=en) — the mindfulness-awakening-aspect, rapture-awakening-aspect, tranquility-awakening-aspect, samādhi-awakening-aspect, and direct-seeing-awakening-aspect likewise do not fit the concept of action.
+   - [an6.63](https://dhamma.gift/an6.63:33.3?lang=en) — *Cetanāhaṁ, bhikkhave, kammaṁ vadāmi. Cetayitvā kammaṁ karoti — kāyena vācāya manasā*: *kamma* is *cetanā*, and having *cetayitvā* one does *kamma* by body, speech and mind. Therefore, "processing" and "activity" describe the appropriate level of phenomena for *cetanā* and *kamma*. "Intention" and "action" are merely their coarser, downstream components. Defining *cetanā* and *kamma* as only intention and action excludes the very cognitive processes and activity from which they originate.
+   - `sañcetanā` — comprehending, devising, a design. It is close to intention, and still more exact: it speaks of an early stage of comprehending. [an4.171](https://dhamma.gift/an4.171:1.1?lang=en) — *kāyasañcetanā*, *vacīsañcetanā*, *manosañcetanā*: devising by body, speech and mind, from which *sukhadukkha* arises within. [an10.217](https://dhamma.gift/an10.217:1.1?lang=en) — *sañcetanikānaṁ kammānaṁ katānaṁ upacitānaṁ*: *kamma* devised, done and accumulated. If *cetanā* is rendered "intention", *sañcetanā* is left without a word of its own, and the two terms merge into one.
+5. `veramaṇī` and `paṭivirata`: In Pali these are two words of one root (*vi-ram*: no longer delighting in, having given up). *Veramaṇī* is used in the definition of the path ([sn45.8](https://dhamma.gift/sn45.8:6.2?lang=en)), while *paṭivirata* describes the state of the arahants ([an3.70](https://dhamma.gift/an3.70:19.2?lang=en)). In translation, both often merge into the single word "abstaining," which, unlike the original terms, does not rule out being still drawn to the object. "Not taking up" and "having given up" leave no such ambiguity: an arahant doesn’t just "abstain" from killing or stealing; they no longer accept such conduct and have completely renounced it, starting from the purification of the mind. For example, to "abstain" from desires is not the same as being "free" from them. Both *paṭivirata* and *veramaṇī* describe this latter state of complete renunciation and freedom.
+6. `dukkhā vedanā` and `sukhā vedanā` — both bodily and mental feeling:
+
+A common and widespread misconception is:
+
+1. *Dukkha* is a broad, untranslatable concept ("suffering," "stress," etc.).
+2. *Dukkhā vedanā* is specifically bodily pain.
+
+According to the suttas, both are incorrect. On the contrary:
+
+- *Dukkha* is bodily pain and discomfort ([DN 22](https://dhamma.gift/dn22:18.18?s=dukkha&lang=en), [MN 141](https://dhamma.gift/mn141:16.1?s=dukkha&lang=en)).
+- *Dukkhā vedanā* is painful feeling—an experience that can be either bodily or mental ([MN 44](https://dhamma.gift/mn44:24.1?lang=en)).
+
+Clearly, no one would suggest that a painful experience—such as a painful memory—is only "bodily pain," yet it is undoubtedly a painful feeling and experience. The same logic applies to *sukhā vedanā*.
+
+The texts above show that the Pali terms `dukkha`, `taṇhā`/`tasinā`, `kāma`, and `kamma` were never exact equivalents — either of their Sanskrit counterparts or of the standard English translations. Yet "suffering," "thirst," "sensual desire," and "action" remain the standard, universally used Buddhist terminology.
+
 ## Issues with Sanskritocentrism
 
 Sanskritocentrism (pan-Sanskritism)[^3] is considered a non-optimal approach to understanding the Buddha's Teaching. The Buddha's Teaching exists in exhaustive completeness in Pali, whereas Sanskrit materials are often later, more fragmentary, and frequently known not from an independent Sanskrit original but through their Chinese and Tibetan translations. Moreover, comparing the Pali and Sanskrit versions reveals not just lexical differences but fundamental shifts in the concepts themselves. A telling example is the blending of *dukkha* and *domanassa*, and the tendency to understand *dukkha* as a mixture of bodily and mental pain — whereas in the Pali texts, as shown repeatedly above, these concepts are distinguished, never mixed, and never reduced to one another.
@@ -194,50 +258,11 @@ The apparent absence of false cognates and "false friends of the translator" bet
 
 It is also enough to compare the 31 "body parts," as in [dn22](https://dhamma.gift/dn22:5.2?lang=en) — `kesā lomā... vasā kheḷo siṅghāṇikā lasikā muttanti` — to see how distant and incommensurable the meanings of seemingly similar Pali and Sanskrit words can be.
 
-With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed below. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
+With this in mind, in cases where Pali texts genuinely lack context or examples, Sanskrit can still be used — provided this does not lead to contradictions like those listed above. If a definition of a concept exists in Pali but the Sanskrit meaning contradicts it, the latter is not applied.
 
 **Examples of terminological divergence:** `duḥkha`, `tṛṣṇā`, `kāma` and `karma` may, in some cases, correspond to "suffering," "thirst," "sensual desire," and "action" within some teaching recorded in Sanskrit — but in Pali, had the Pali texts themselves been the primary basis for establishing these terms (rather than a mechanical transfer of meanings and parallels between the two languages), this would be unlikely.
 
-**Examples from Pali texts:**
-
-1. `dukkha`:
-   - [dn22](https://dhamma.gift/dn22:18.18?s=dukkha&lang=en) — the definition within the practical realization of the Four Noble Truths.
-   - [mn141](https://dhamma.gift/mn141:16.1?s=dukkha&lang=en) — the definition within the Four Noble Truths: `soka-parideva-dukkha-domanass-upāyāsa` — suffering [meaning 1], lamentation, pain, "suffering" [meaning 2], despair. If we speak of *suffering* in the direct sense, it is either *soko* — very strong bodily and mental pain, in which the experiencer:
-     ```
-     Khaṇātītā hi socanti
-     nirayamhi samappitā
-     ```
-     Those who missed the opportunity, they suffer, having fallen into hell —
-     ```
-     socati kilamati paridevati, urattāḷiṁ kandati, sammohaṁ āpajjati
-     ```
-     suffers, languishes, cries, beats their breast weeping, falls into confusion — or *domanassa* in the figurative sense of "suffering," as mental pain.
-2. `taṇhā`: the two Pali terms *taṇhā* and *tasinā*[^4] — quite mechanically, without regard for their context of use in the Suttas — have been given full synonymous status with each other and with the Sanskrit *tṛṣṇā*, though given what was described above under "Semantic Divergence," this problem may not be about Sanskrit at all, but about translating both languages without regard for differences in meaning that can be gleaned from their descriptions. Still, to a large extent a "Sanskrit" problem is also present: the kinship of *tṛṣṇā*, *taṇhā*, and *tasinā* is explained by standard phonetic mutation (*tṛṣṇā → taṇhā*, of which there are only about three such words in the entire core of the Pali texts: *kṛṣṇa → kaṇha*, *uṣṇa → uṇha*; and the similarity of *tṛṣṇā* and *tasinā* — *tṛ → t*, *ṣ → s*, *ṇā → nā* — is likewise easy to trace). But phonetic mutation cannot guarantee that meaning is "transferred" too, especially when the "mutation" of one word supposedly gives both words fully identical meanings — much as claiming "dryish" and "drought" are complete synonyms because the word "dry" in some other language corresponds to both. Divergences in the meaning and use of Pali *taṇhā* and *tasinā* are easily traced in the texts below: *taṇhā* is used where the phenomenon is associated with joy and passion-enchantment, delighting here-and-there, while *tasinā* is used in cases of desert, heat, and exhaustion, in more extreme circumstances.
-     - [sn12.68](https://dhamma.gift/sn12.68?s=tasito&lang=en) — describes circumstances suited to real, strong "thirst," and uses a derivative of *tasinā*, not *taṇhā*; but if this concerned the desire to drink, there would be a pleonasm with *pipāsito* ("thirsty, desiring to drink"). In any case, such a context does not fit "accompanied by joy-passion, delighting here-and-there," which is repeatedly said of *taṇhā*.
-     - [snp3.2](https://dhamma.gift/snp3.2:12.3?s=ta%E1%B9%87h%C4%81&lang=en) — the same case: *taṇhā* is not used, *tasinā* is, with the same tautology alongside *pipāsā*.
-     - [an4.10](https://dhamma.gift/an4.10:1.6?s=ta%E1%B9%87h&lang=en) — also *tasinā*, not *taṇhā*, and a tautology with *pipāsā*.
-     - [an4.184](https://dhamma.gift/an4.184:3.2?s=ta%E1%B9%87h&lang=en) — if *taṇhā* were thirst, there would be a tautology with *pipāso*, which here clearly has a figurative meaning; when used literally, *pipāso* means "desire to drink."
-     - [an3.76](https://dhamma.gift/an3.76:2.3?s=ta%E1%B9%87h&lang=en) and [an3.77](https://dhamma.gift/an3.77:2.3?s=ta%E1%B9%87h&lang=en) — if *taṇhā* were thirst, this would be a misleading oxymoron: thirst as moisture and nourishment.
-     - [sn44.9](https://dhamma.gift/sn44.9:6.6?s=ta%E1%B9%87h&lang=en) — a logical contradiction: thirst (hunger for liquid) as nourishment.
-     - [an10.62](https://dhamma.gift/an10.62:2.2?s=ta%E1%B9%87h&lang=en) — what would be the nourishment of thirst? Thirst is an absence, not a form of nourishment itself.
-     - [iti109](https://dhamma.gift/iti109:3.3?s=ta%E1%B9%87h&lang=en) — the river's flow is thirst; a state of water's absence is a flow of water.
-     - [sn41.5](https://dhamma.gift/sn41.5:5.10?s=ta%E1%B9%87h&lang=en) — a similar contradiction involving the flow of water.
-     - [mn9](https://dhamma.gift/mn9:11.5?s=ta%E1%B9%87h%C4%81&lang=en) — from the accumulation of thirst comes accumulation of nourishment (logically it should be the reverse — from the disappearance of nourishment, an accumulation of thirst, or at least from the disappearance of thirst, an accumulation of nourishment).
-     - [an4.199](https://dhamma.gift/an4.199:2.2?s=ta%E1%B9%87ha&lang=en) — the phenomena listed here are so subtle that thirst could, if anything, be their result; calling "I am" and its further extensions "thirst" or currents thereof, in the sense of an "acute need for something," is very difficult — this passage concerns subtle, fundamental states inherent even in beings devoid of "thirst" in the ordinary sense of the word. Moreover, the sutta does not mention taṇhā in passing; it answers outright what it is (*Katamā ca sā, bhikkhave, taṇhā…?*). The whole answer is 108 variations of "I am," "I am such," "may I be," "I will be." It contains not a single word used to describe thirst, desire, or urge, although Pali has plenty of them: *icchā*, *chanda*, *patthanā*, *pipāsā*, *ākaṅkhā*. Had thirst been meant, the Buddha would hardly have made it harder for his followers to understand by defining it in 108 ways without once calling it wanting, urge, or longing — that is, what it is usually translated as: "craving," "thirst," "desire," "longing."
-     - [an4.9](https://dhamma.gift/an4.9:2.1?s=ta%E1%B9%87ha&lang=en) — thirst is not the source of pain, but either one type of pain, or conversely a striving to stop something unpleasant. Otherwise thirst for water would be the cause of the unpleasant sensation of dryness — but on the contrary, thirst as the striving to drink is the *result* of the unpleasant sensation of dryness.
-     - [an6.61](https://dhamma.gift/an6.61:12.4?s=ta%E1%B9%87ha&lang=en) — the phenomena listed here, including *phasso*, can be so subtle that there can be no talk of thirst in either a figurative or a direct sense, especially at moments of "quenched thirst" — yet these phenomena remain stitched together and held, whether or not there is "strong wanting."
-     - [thag8.3](https://dhamma.gift/thag8.3:8.3?lang=en) — `Sabbaṁ taṇhaṁ visosetvā`. Another oxymoron, "drying up thirst," on top of the "thirst is moisture" one above, instead of the logical "thirst is already dryness."
-
-   As said more than once, in Pali texts *taṇhā* has a more complex, subtler, and less "loud" meaning than the English word "thirst" — if any Pali word comes close to "thirst," it is *tasinā*, in both its direct and figurative senses.
-3. `kāma`:
-   - [an6.63](https://dhamma.gift/an6.63:8.10?s=k%C4%81m&lang=en) — desires as intention-plan-passion, not merely multipliers of desire (*kāma-guṇas*).
-   - [an6.63 (continuation)](https://dhamma.gift/an6.63:12.1?s=k%C4%81mayam%C4%81no&lang=en) — a desiring person obtains either good or not-good, but "sensual" desires would lead to not-good, as they would contain *akusalamūla*: *lobha*, *dosa*, and/or *moha*.
-   - `Puriso attha-kāmo hita-kāmo yogakkhema-kāmoti kho, bhikkhave, tathāgatassetaṁ adhivacanaṁ arahato sammāsambuddhassa.` — "A person desiring good, desiring benefit, desiring protection from the yoke," monks, is a designation of the Tathagata, of the Arahant, of the Rightly Awakened One. ([mn19](https://dhamma.gift/mn19:26.10?s=hitak%C4%81m&lang=en)) It would be inappropriate to assume the Tathagata compared himself to a person passionately desiring good for others, or for himself.
-4. `kamma`:
-   - [an4.237](https://dhamma.gift/an4.237:5.1?s=kamma&lang=en) — Right View, Right Mindfulness, and Right Samādhi do not fit the concept of "action" — perhaps, with a stretch, "activity" — but these are clearly far subtler phenomena than mere deed, work, or action.
-   - [an4.238](https://dhamma.gift/an4.238:4.1?s=kamma&lang=en) — the mindfulness-awakening-aspect, rapture-awakening-aspect, tranquility-awakening-aspect, samādhi-awakening-aspect, and direct-seeing-awakening-aspect likewise do not fit the concept of action.
-
-The texts above show that the Pali terms `dukkha`, `taṇhā`/`tasinā`, `kāma`, and `kamma` were never exact equivalents — either of their Sanskrit counterparts or of the standard English translations. Yet "suffering," "thirst," "sensual desire," and "action" remain the standard, universally used Buddhist terminology.
+The Pali passages for these terms are examined above, in [Where the Standard Renderings Don't Fit the Suttas](https://dhamma.gift/docs/rationale/#passages).
 
 [^1]: In English, **pain**: [meaning 1] in the direct sense — a wide spectrum of unpleasant bodily sensations; [meaning 2] in the figurative sense — a problem, limitation, or inconvenience, something requiring a solution or improvement, as in "the pain of loneliness" or "customer pain." **Suffering**: [meaning 1] in the direct sense — very strong bodily and mental pain, together or separately; [meaning 2] in the figurative sense — mental pain, mental discomfort.
 [^2]: False cognates — words similar in sound and origin but with different meanings. Examples: *fabric* — "cloth" vs. Russian *фабрика* — "factory"; *magazine* — "periodical" vs. Russian *магазин* — "store."
