@@ -50,7 +50,7 @@ def glossary(sheet, path):
         for r in list(csv.reader(io.StringIO(raw)))[2:]:
             r += [''] * (15 - len(r))
             pali = r[1].strip()
-            if not pali or not re.search(r'[a-zāīūṁṇñṭḍḷṅ]', pali, re.I) or pali.startswith('Составные'):
+            if not pali or not re.search(r'[a-zāīūṁṇñṭḍḷṅ]', pali, re.I) or pali.startswith(('Составные', 'Compounds')):
                 continue
             rec = {'pali': pali, 'ru': r[2].strip(),
                    'defined_in': ids(r[8]), 'definition_url': r[9].strip() or None, 'definition_pli': r[10].strip() or None,
