@@ -66,6 +66,7 @@ def to_markdown(md):
     md = re.sub(r'^import .*\n', '', md, flags=re.M)
     md = re.sub(r'^<a id="[\w-]+"></a>\n+', '', md, flags=re.M)
     md = re.sub(r'<PageTools\s*/>\n?|<img [^>]*/>\n?', '', md)
+    md = re.sub(r'<head>[\s\S]*?</head>\n*', '', md)  # the page's own schema.org markup, not text
     url = lambda to: SITE + re.sub(r'\?$', '', re.sub(r'\?&', '?', re.sub(r'[?&]hide=id\b', '', to)))
     items = []
     def browser(m):
