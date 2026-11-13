@@ -11,7 +11,9 @@
 import argparse, csv, glob, io, json, os, re, urllib.request
 
 SITE = 'https://dhamma.gift'
-SHEET = 'https://docs.google.com/spreadsheets/d/1s7n7ogJhdtSIweVO9aad63_k7lWrZgyPRUFg34AobMg/export?format=csv&gid=0'
+# The glossary as dg-docs publishes it (synced daily from the owner's Google Sheet, checked there: only the four Nikāyas,
+# Snp, Iti, Ud and the Vinaya): the one place the sheet is read (owner 2026-11-13: «максимально в одном месте»).
+GLOSSARY = 'https://raw.githubusercontent.com/dhammagift/dg-docs/main/src/data/glossary.json'
 HERE = os.path.dirname(os.path.abspath(__file__))
 
 
@@ -38,24 +40,19 @@ def parallel(offline_data, roots, path):
     return texts, segs
 
 
-def ids(cell):
-    # "mn9, sn12.2 … (+15)" -> ["mn9", "sn12.2"]; the sheet truncates long lists for reading
-    return [x for x in re.split(r'[,\s]+', re.sub(r'….*$', '', cell or '')) if re.match(r'^[a-z]', x)]
-
-
-def glossary(sheet, path):
-    raw = urllib.request.urlopen(sheet, timeout=60).read().decode() if sheet.startswith('http') else open(sheet, encoding='utf-8').read()
+def glossary(src, path):
+    raw = urllib.request.urlopen(src, timeout=60).read().decode() if src.startswith('http') else open(src, encoding='utf-8').read()
     n = 0
     with open(path, 'w', encoding='utf-8') as f:
-        for r in list(csv.reader(io.StringIO(raw)))[2:]:
-            r += [''] * (15 - len(r))
-            pali = r[1].strip()
-            if not pali or not re.search(r'[a-zāīūṁṇñṭḍḷṅ]', pali, re.I) or pali.startswith(('Составные', 'Compounds')):
-                continue
-            rec = {'pali': pali, 'ru': r[2].strip(),
-                   'defined_in': ids(r[8]), 'definition_url': r[9].strip() or None, 'definition_pli': r[10].strip() or None,
-                   'compounds_defined': [x.strip() for x in r[11].split(',') if x.strip()],
-                   'pattern_hits': ids(r[12]), 'pattern_hits_broad': ids(r[13]), 'vinaya_hits': ids(r[14])}
+        for t in json.loads(raw)['terms']:
+            c = t.get('canon') or {}
+            link = c.get('link') or ''
+            rec = {'pali': t['pali'], 'ru': t['ru'],
+                   'defined_in': c.get('where', []), 'definition_url': ('https://dhamma.gift' + link if link.startswith('/') else link) or None,
+                   'definition_pli': c.get('definition'), 'compounds_defined': c.get('compounds', []),
+                   'pattern_hits': c.get('patterns', []), 'pattern_hits_broad': c.get('broader', []), 'vinaya_hits': c.get('vinaya', [])}
+            if t.get('kind'):
+                rec['definition_type'] = t['kind'].replace('special: ', '')   # «ariyassa vinaye»: the canon redefines the word
             f.write(json.dumps(rec, ensure_ascii=False) + '\n'); n += 1
     return n
 
@@ -98,11 +95,11 @@ def texts(docs):
 def main():
     a = argparse.ArgumentParser()
     a.add_argument('--offline-data', required=True); a.add_argument('--pali-root', required=True)
-    a.add_argument('--docs', required=True); a.add_argument('--sheet', default=SHEET)
+    a.add_argument('--docs', required=True); a.add_argument('--glossary', default=GLOSSARY)
     o = a.parse_args()
     os.makedirs(os.path.join(HERE, 'data'), exist_ok=True)
     t, s = parallel(o.offline_data, pali_roots(o.pali_root), os.path.join(HERE, 'data', 'parallel_pli_ru.jsonl'))
-    g = glossary(o.sheet, os.path.join(HERE, 'data', 'glossary.jsonl'))
+    g = glossary(o.glossary, os.path.join(HERE, 'data', 'glossary.jsonl'))
     texts(o.docs)
     print(f'parallel: {t} texts, {s} segments; glossary: {g} terms; texts: en, ru')
 

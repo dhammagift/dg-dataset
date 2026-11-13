@@ -65,6 +65,7 @@ What the text says, with its place:
 | `compounds_defined` | Compounds of the term that have a definition of their own |
 | `pattern_hits` | Texts matched by the definition patterns *Katam…? / … vuccati* (candidates, reviewed over time) |
 | `pattern_hits_broad`, `vinaya_hits` | Wider patterns (*Ko…*, *ayaṁ…*, *Kiñ…*, *ariyassa vinaye*), and the Vinaya's Vibhaṅgas |
+| `definition_type` | Only for the canon's special definitions: `ariyassa vinaye` (the word as the noble one's training uses it) or `assutavā puthujjano bhāsati` (the canon's sense against the worldling's) |
 
 The glossary is filled in gradually. Terms without a definition yet have empty lists.
 
