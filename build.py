@@ -53,6 +53,8 @@ def glossary(src, path):
                    'pattern_hits': c.get('patterns', []), 'pattern_hits_broad': c.get('broader', []), 'vinaya_hits': c.get('vinaya', [])}
             if t.get('kind'):
                 rec['definition_type'] = t['kind'].replace('special: ', '')   # «ariyassa vinaye»: the canon redefines the word
+            if t.get('forms'):
+                rec['forms'] = t['forms']   # inflected forms whose DPD headwords include the term (samudda: samuddo...)
             f.write(json.dumps(rec, ensure_ascii=False) + '\n'); n += 1
     return n
 
