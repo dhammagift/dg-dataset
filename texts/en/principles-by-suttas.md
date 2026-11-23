@@ -15,7 +15,7 @@ authority of whoever reported it (the Sutta makes clear that individual
 monks and whole communities can pass on what is not the Teacher's Teaching,
 and verifying it takes a check against the Suttas and the Vinaya). [Read →](https://dhamma.gift/an4.180:2.6?lang=en)
 
-**AN 1.132–139**: monks who present what the Realized One did not say as said by him, and what he said as not said, act for the harm of many and make the true Dhamma disappear. So before saying "the Buddha taught this," find where it is said. If a claim is found only in the commentaries, the Abhidhamma or later texts, it cannot be passed off as the Teacher's word. [Read →](https://dhamma.gift/an1.132-139:1.1?lang=en)
+**AN 1.132–139**: monks who present what the Realized One did not say as said by him, and what he said as not said, act for the harm of many and make the true Dhamma disappear. So before saying "the Buddha taught this," find where it is said. If a claim is found only in the commentaries, the Abhidhamma or later texts, it cannot be passed off as the Teacher's word. [Read →](https://dhamma.gift/an1.132:1.1?lang=en)
 
 ## Buddha, Dhamma, Sangha: keys to reading
 
@@ -84,10 +84,10 @@ The suttas use words in different ways and usually say themselves which.
 
 - **Direct definition.** It has several formulas, and all of them are direct:
   - "what is X? … this is called X" (*Katamañca … ? … idaṁ vuccati …*): so the analysis of the first truth defines birth, ageing, pain, displeasure and the rest ([DN 22](https://dhamma.gift/dn22:18.18?lang=en); the whole row [DN 22](https://dhamma.gift/dn22:18.3?lang=en));
-  - the word said twice, "'X, X', so it is said. What then is X?" (*‘Nibbānaṁ, nibbānan’ti, āvuso, vuccati. Katamaṁ nu kho, āvuso, nibbānan’ti?*), with the answer "this is called nibbāna" ([SN 38.1](https://dhamma.gift/sn38.1:2.1?lang=en));
+  - the word said twice, "'X, X', so it is said. What then is X?" (*‘Nibbānaṁ, nibbānan’ti, āvuso sāriputta, vuccati. Katamaṁ nu kho, āvuso, nibbānan’ti?*), with the answer "this is called nibbāna" ([SN 38.1](https://dhamma.gift/sn38.1:2.1?lang=en));
   - "'X, X', so it is said. To what extent is it called X?" (*‘Saññā saññā’ti, āvuso, vuccati. Kittāvatā nu kho, āvuso, saññāti vuccati?*, [MN 43](https://dhamma.gift/mn43:8.1?lang=en));
   - "how is X? … so is X" (*Kathañca … ? … Evaṁ kho …*, [SN 47.13](https://dhamma.gift/sn47.13:7.1?lang=en), [7.6](https://dhamma.gift/sn47.13:7.6?lang=en)).
-- **Simile** (*seyyathāpi … evameva kho*, "just as … so too"). The Buddha says himself that it is a simile: "I have made this simile to convey the meaning" (*upamā kho myāyaṁ katā atthassa viññāpanāya*, [SN 35.238](https://dhamma.gift/sn35.238:7.1?lang=en)), and explains each part of it.
+- **Simile** (*seyyathāpi … evameva kho*, "just as … so too"). The Buddha says himself that it is a simile: "I have made this simile to convey the meaning" (*upamā kho myāyaṁ, bhikkhave, katā atthassa viññāpanāya*, [SN 35.238](https://dhamma.gift/sn35.238:7.1?lang=en)), and explains each part of it.
 - **Designation** (*adhivacana*). A figurative name is called a designation: "'danger', monks, is a designation for desires" (*‘Bhayan’ti, bhikkhave, kāmānametaṁ adhivacanaṁ*), and then it says why ([AN 6.23](https://dhamma.gift/an6.23:1.1?lang=en), [2.2](https://dhamma.gift/an6.23:2.2?lang=en)).
 - **Conditional and direct sense** (*pariyāyena / nippariyāyena*). Ānanda examines one expression: "to this extent the Blessed One spoke of it in a conditional sense" (*vutto bhagavatā pariyāyena*), and at the end: "in a direct sense" (*nippariyāyena*, [AN 9.42](https://dhamma.gift/an9.42:4.2?lang=en), [12.2](https://dhamma.gift/an9.42:12.2?lang=en)).
 - **In the noble one's discipline** (*ariyassa vinaye*). A special sense is named openly, often by contrast: "the brahmins have it one way, the noble one's discipline another" (*aññathā kho, brāhmaṇa, brāhmaṇā … paññāpenti, aññathā ca pana ariyassa vinaye …*, [AN 3.58](https://dhamma.gift/an3.58:3.1?lang=en)); "what disintegrates is called the world in the noble one's discipline" (*yaṁ kho, ānanda, palokadhammaṁ, ayaṁ vuccati ariyassa vinaye loko*, [SN 35.84](https://dhamma.gift/sn35.84:2.3?lang=en)).
@@ -113,7 +113,7 @@ harm or to benefit. [Read →](https://dhamma.gift/an3.65:4.1?lang=en)
 
 **MN 95 (Caṅkī Sutta)** — the companion to Kālāma: where Kālāma says what
 *not* to infer a teaching's truth from, MN 95 says what one may honestly say
-instead. Safeguarding the truth (*saccānurakkhana*) is to say "such is my
+instead. Safeguarding the truth (*saccānurakkhaṇa*) is to say "such is my
 faith," not "this alone is true, anything else is wrong." [Read →](https://dhamma.gift/mn95:15.4?lang=en)
 
 ## Scrutinize before you praise or blame
@@ -219,7 +219,7 @@ relevant line:
 - [AN 8.8](https://dhamma.gift/an8.8:6.7?lang=en): "Whatever is well said is the word of the Buddha" — read together with Mahāpadesa and Kālāma, not as license for anything.
 - [MN 22](https://dhamma.gift/mn22:10.10?lang=en): Learning the Dhamma for debate rather than understanding is learning it wrongly.
 - [AN 5.209](https://dhamma.gift/an5.209:1.1?lang=en): Five dangers of reciting the Dhamma in a drawn-out singing voice.
-- [AN 1.132–139](https://dhamma.gift/an1.132-139:1.1?lang=en): Presenting what the Realized One did not say as said, and the reverse: for the harm of many.
+- [AN 1.132–139](https://dhamma.gift/an1.132:1.1?lang=en): Presenting what the Realized One did not say as said, and the reverse: for the harm of many.
 - [MN 18](https://dhamma.gift/mn18:21.2?lang=en): The Buddha on Mahākaccāna's analysis: "I would explain it in just the same way."
 - [MN 44](https://dhamma.gift/mn44:30.5?lang=en): The same on the nun Dhammadinnā's analysis.
 - [MN 141](https://dhamma.gift/mn141:5.7?lang=en): The Buddha endorses beforehand Sāriputta's analysis of the four truths.
